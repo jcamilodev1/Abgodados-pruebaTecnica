@@ -9,6 +9,7 @@
       href="https://fonts.googleapis.com/css2?family=Ballet&family=Roboto:wght@100;400;500;700&family=Source+Sans+Pro:wght@400;700&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="../assets/iconos/fuentes.css" />
     <link rel="stylesheet" href="../style/inicio.css" />
     <title>Abogados</title>
   </head>
@@ -16,10 +17,13 @@
     <nav class="nav">
       <div class="container__nav">
         <div class="container__nav-title">
-          <h1>ABOGADOS</h1>
+          <h1>Abogados</h1>
         </div>
         <div class="container__nav-links">
-          <ul>
+          <div class="nav-icon" id="burguer">
+            <div></div>
+          </div>
+          <ul id="nav">
             <li><a href="#">Home</a></li>
             <li><a href="#">Noticias</a></li>
             <li><a href="#">Consejos</a></li>
@@ -28,6 +32,19 @@
         </div>
       </div>
     </nav>
-    <main class="main"></main>
+    <main class="main">
+      <section class="container__services">
+        <h2>Servicios legales</h2>
+        <p>
+          Abogados es la mejor solucion para tu problema, contamos con un
+          ampliagama de expertos en diferentes areas. Que esperar!
+        </p>
+        <article class="container__services-service">
+          <p>Sucesiones</p>
+          <img src="../assets/img/pexels-photo-238118.jpeg" alt="Sucesiones" />
+        </article>
+      </section>
+    </main>
+    <script src="../js/button.js"></script>
   </body>
 </html>
