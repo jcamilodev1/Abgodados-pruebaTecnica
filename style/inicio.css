@@ -1,0 +1,26 @@
+:root {
+  --primary: #023e8a;
+  --dark: #03045e;
+  --secondary: #48cae4;
+  --ligth: #caf0f8;
+  /* font-family: 'Ballet', cursive;
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Source Sans Pro', sans-serif; */
+}
+* {
+  padding: 0;
+  margin: 0;
+  outline: none;
+}
+
+.nav {
+  color: white;
+  background-color: #023e8a;
+}
+.container__nav {
+  min-width: 300px;
+  padding: 20px;
+}
+.container__nav-title{
+  t
+}
