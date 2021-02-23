@@ -66,10 +66,10 @@ html {
   transform: scale(0);
 }
 /* BURGUER BUTTON LINKS*/
-.container__nav-links ul{
+.container__nav-links ul {
   display: none;
 }
-.container__nav-links .nav-links-ul{
+.container__nav-links .nav-links-ul {
   display: block;
   position: absolute;
   top: 100px;
@@ -79,14 +79,13 @@ html {
   height: 100vh;
   background-color: var(--secondary);
   list-style: none;
-  font-family: 'Roboto';
-  
+  font-family: "Roboto";
 }
-.nav-links-ul li{
+.nav-links-ul li {
   padding: 20px 10px;
   text-align: center;
 }
-.nav-links-ul li a{
+.nav-links-ul li a {
   font-size: 1.8rem;
   color: black;
   text-decoration: none;
@@ -95,25 +94,25 @@ html {
 
 /* MAIN*/
 
-.main{
+.main {
   min-width: 300px;
   width: 60%;
   max-width: 850px;
   margin: 0 auto;
   font-family: "Roboto";
 }
-.container__services{
+.container__services {
   display: grid;
   justify-content: center;
   margin-top: 30px;
 }
-.container__services h2{
+.container__services h2 {
   color: var(--dark);
   font-size: 2.5rem;
   text-align: center;
   margin-bottom: 10px;
 }
-.container__services p{
+.container__services p {
   color: rgba(82, 80, 80, 0.849);
   text-align: center;
 }
@@ -125,17 +124,18 @@ html {
   overflow: hidden;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-.container__services-service:hover{
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2) inset , 0 6px 20px 0 rgba(0, 0, 0, 0.19) inset;
+.container__services-service:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2) inset,
+    0 6px 20px 0 rgba(0, 0, 0, 0.19) inset;
 }
-.container__services-service h3{
+.container__services-service h3 {
   position: relative;
   z-index: 3;
   font-size: 2rem;
   margin-top: 10px;
   margin-left: 20px;
 }
-.container__services-service img{
+.container__services-service img {
   position: absolute;
   top: 0;
   width: 100%;
@@ -144,54 +144,53 @@ html {
 
 /*  FAQS*/
 
-.container__faqs{
+.container__faqs {
   padding: 20px;
 }
-.container__faqs h2{
+.container__faqs h2 {
   color: var(--dark);
   font-size: 2.5rem;
   text-align: center;
 }
-.container__faqs-faq{
+.container__faqs-faq {
   margin-top: 10px;
 }
-.container__faqs-faq p{
+.container__faqs-faq p {
   font-size: 1.5rem;
 }
-.container__faq-text{
+.container__faq-text {
   display: flex;
   justify-content: space-between;
   margin-bottom: 20px;
   font-size: 1.5rem;
   color: var(--primary);
-
 }
 
-.container__faq-text span{
+.container__faq-text span {
   transform: rotate(90deg);
   transition: all 0.5s;
 }
-.transition-arrow{
+.transition-arrow {
   transform: rotate(-90deg) !important;
 }
-.faqs-text{
+.faqs-text {
   display: none;
   margin-bottom: 20px;
 }
 
 /* Location */
 
-.container__location{
+.container__location {
   display: grid;
   justify-content: center;
   margin-top: 30px;
 }
-.container__location h2{
+.container__location h2 {
   color: var(--dark);
   font-size: 2.5rem;
   text-align: center;
 }
-.container__location-city{
+.container__location-city {
   display: grid;
   height: 60px;
   justify-content: center;
@@ -213,17 +212,17 @@ html {
   background-color: var(--secondary);
 }
 /* TESTIMONY*/
-.container__testimonials{
+.container__testimonials {
   display: grid;
   justify-content: center;
   margin-top: 30px;
 }
-.container__testimonials h2{
+.container__testimonials h2 {
   color: var(--dark);
   font-size: 2.5rem;
   text-align: center;
 }
-.container__testimonials-testimony{
+.container__testimonials-testimony {
   display: grid;
   justify-content: center;
   align-items: center;
@@ -233,13 +232,13 @@ html {
   color: white;
   background-color: var(--primary);
 }
-.container__testimony-profile{
+.container__testimony-profile {
   display: flex;
   justify-content: space-around;
   align-items: center;
   margin-bottom: 10px;
 }
-.container__testimony-profile img{
+.container__testimony-profile img {
   border-radius: 100%;
 }
 
@@ -253,8 +252,9 @@ html {
   color: white;
   font-size: 2rem;
 }
-.footer__container{
+.footer__container {
   display: flex;
+  margin: 0 auto;
   justify-content: center;
   max-width: 750px;
 }
@@ -262,6 +262,6 @@ html {
   margin-right: 20px;
   cursor: pointer;
 }
-.footer__container span:hover{
+.footer__container span:hover {
   color: var(--secondary);
 }

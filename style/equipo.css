@@ -1,0 +1,30 @@
+:root {
+  --primary: #023e8a;
+  --dark: #03045e;
+  --secondary: #48cae4;
+  --ligth: #caf0f8;
+  /* font-family: 'Ballet', cursive;
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Source Sans Pro', sans-serif; */
+}
+
+.container__team {
+  display: grid;
+  justify-content: center;
+  margin-top: 20px;
+}
+.container__team h2 {
+  text-align: center;
+  color: var(--dark);
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+.container__team-img img {
+  width: 100%;
+  margin-bottom: 10px;
+}
+.container__team-text p {
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+  color: rgba(0, 0, 0, 0.699);
+}
