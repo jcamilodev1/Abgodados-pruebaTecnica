@@ -28,3 +28,13 @@
   font-size: 1.2rem;
   color: rgba(0, 0, 0, 0.699);
 }
+@media (min-width: 650px) {
+  .container__team-text p {
+    font-size: 1.5rem;
+  }
+}
+@media (min-width: 900px) {
+  .container__team-text p {
+    font-size: 1.7rem;
+  }
+}
