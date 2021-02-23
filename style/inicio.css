@@ -244,3 +244,24 @@ html {
 }
 
 /* FOOTER */
+
+.footer {
+  margin-top: 20px;
+  padding: 20px;
+  height: 50px;
+  background-color: var(--dark);
+  color: white;
+  font-size: 2rem;
+}
+.footer__container{
+  display: flex;
+  justify-content: center;
+  max-width: 750px;
+}
+.footer__container span {
+  margin-right: 20px;
+  cursor: pointer;
+}
+.footer__container span:hover{
+  color: var(--secondary);
+}
